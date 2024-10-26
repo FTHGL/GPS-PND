@@ -30,7 +30,10 @@ This repository contains the KiCad design files and documentation for the GPS PN
 - AZ1117-3.3V Low Dropout Regulator
 - STM32F301K6U6 ARM Cortex-M4 Microcontroller
 - MS38SN4 GNSS Module
+- 20mmx56mm PCB board
+- ![Proje PCB](Doc/gps-pnd.png)
 
+  
 ### Software:
 - KiCad for PCB design
 - STM32CubeIDE or Keil for programming the microcontroller
