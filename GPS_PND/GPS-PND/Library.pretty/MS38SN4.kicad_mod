@@ -1,0 +1,171 @@
+(footprint "MS38SN4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d2b74212-4bd8-46cb-8e03-541082c6a9a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MS38SN4"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9c06be47-69c7-4409-a6a7-2a2ab038e7d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44a85c27-14b7-4263-b863-411e66b68d64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa50000c-c47c-4a2a-ad4c-dd7f7f940368")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1158d990-b844-4b54-b0ef-f98c11a3b055")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.6 -1.4)
+		(end 5.6 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e275cd5d-8cc3-4046-901e-891c55ed3af1")
+	)
+	(fp_rect
+		(start -5.6 -2)
+		(end 5.65 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e4e57c29-55d0-4d87-a146-d4abfc688308")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7f0ae4a-5cc1-499e-bdb8-b86df7222680")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 3.9 0)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7f2b5df6-c593-45a6-95dd-af400d90a4d4")
+	)
+	(pad "2" smd rect
+		(at 1.95 0)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d322c9e2-28fa-4a92-97b3-40f3e24b881a")
+	)
+	(pad "3" smd rect
+		(at 0.95 0)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ee3981cc-72a6-445d-ad64-5c6bd4e7efeb")
+	)
+	(pad "4" smd rect
+		(at -0.05 0)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8044fd64-dbed-467c-be04-e1b04271e1a7")
+	)
+	(pad "5" smd rect
+		(at -1.05 0)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "38b0863e-8642-43cd-b2cb-368e602499c2")
+	)
+	(pad "6" smd rect
+		(at -2.05 0)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "39d6415b-ee87-4a36-a1cc-dfd3c514a45e")
+	)
+	(pad "7" smd rect
+		(at -4 0)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "56f97688-a9f7-46c7-a51e-367ae4d6ea6d")
+	)
+	(group ""
+		(uuid "f37e43ae-bfe4-4e69-9640-334fac91680c")
+		(members "38b0863e-8642-43cd-b2cb-368e602499c2" "39d6415b-ee87-4a36-a1cc-dfd3c514a45e"
+			"56f97688-a9f7-46c7-a51e-367ae4d6ea6d" "7f2b5df6-c593-45a6-95dd-af400d90a4d4"
+			"8044fd64-dbed-467c-be04-e1b04271e1a7" "d322c9e2-28fa-4a92-97b3-40f3e24b881a"
+			"ee3981cc-72a6-445d-ad64-5c6bd4e7efeb"
+		)
+	)
+	(model "C:/Users/fthgl/Desktop/Yeni klasör/GPS-PND/Doc/MS38SN4.step"
+		(offset
+			(xyz -6.5 15 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)
